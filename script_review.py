@@ -4,7 +4,7 @@ from chunk_counter import chunk_counter
 
 # define your own chunk grammar here
 chunk_grammar = '''Chunk: {<.*>+}
-													}<VB.?|IN>{'''
+		          }<VB.?|IN>{'''
 
 # create RegexpParser object
 chunk_parser = RegexpParser(chunk_grammar)
